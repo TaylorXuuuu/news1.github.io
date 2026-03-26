@@ -1,0 +1,135 @@
+/* News page styling - Ze Xu */
+
+/* 引用 */
+.speech {
+    font-style: italic;
+    color: #222;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+}
+
+/* 大引用 */
+.quote-big {
+    font-size: 24px;
+    font-style: italic;
+    border-left: 4px solid #ccc;
+    padding-left: 15px;
+    margin: 30px 0;
+}
+
+/* 首字放大 */
+.lead::first-letter {
+    font-size: 60px;
+    font-weight: bold;
+    float: left;
+    margin-right: 8px;
+    line-height: 1;
+}
+
+/* 图片优化 */
+.image-block img {
+    border-radius: 6px;
+}
+
+/* 分割 */
+.section-divider {
+    border-top: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #fafafa;
+    color: #111;
+    margin: 0;
+}
+
+.container {
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* 标题 */
+h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.meta {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+/* 段落 */
+p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+
+/* 导语 */
+.lead {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 强调段 */
+.highlight {
+    font-weight: bold;
+}
+
+/* 引用 */
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+/* 结尾 */
+.ending {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 图片模块 */
+.image-block {
+    margin: 30px 0;
+}
+
+.image-block img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 6px;
+}
+
+/* 视频 */
+.media video {
+    width: 100%;
+    margin: 30px 0;
+}
+
+/* 作者 */
+.author {
+    font-size: 14px;
+    color: #666;
+    margin-top: 40px;
+}
